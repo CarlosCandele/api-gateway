@@ -8,3 +8,5 @@ export class CustomThrottlerGuard extends ThrottlerGuard {
       return `${req.ip}-${req.headers['user-agent']}`;
   }
 }
+export { ThrottlerGuard };
+
